@@ -18,11 +18,10 @@ for i in range(1, 4):
 average = sum(marks) / len(marks)
 
 # Display result
-print("----------------------")
 print(f"\nStudent: {name}")
 print(f"Average marks: {average:.2f}")
 if average >= 40:
     print("Result: Pass")
 else:
     print("Result: Fail")
-print("----------------------")
+
